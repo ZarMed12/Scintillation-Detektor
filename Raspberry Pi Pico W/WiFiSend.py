@@ -16,7 +16,7 @@ def log_event(count):
     try:
         urequests.post(SERVER_URL, json={
             "time": timestamp,
-            "muons": count
+            "x type of detected radiation": count
         }).close()
     except:
         print(response.status_code)
