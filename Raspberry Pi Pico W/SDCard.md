@@ -1,4 +1,4 @@
-##### from machine import RTC
+##### from machine import RTC - machine time
 
 
 ##### log_event(count) - Function which write on SD card timestamp and value on that time moment
