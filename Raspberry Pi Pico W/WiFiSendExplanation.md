@@ -10,6 +10,6 @@
 
 ##### try except loop is error catcher which give information if data is not send
 
-##### urequests.post(SERVER_URL, json={"time": timestamp, "muons": count}).close()
+##### urequests.post(SERVER_URL, json={"time": timestamp, "type of detected radiation": count}).close() - Sends HTTP POST with JSON body
     
 ##### print(response.status_code) - Give feedback about not sent data
