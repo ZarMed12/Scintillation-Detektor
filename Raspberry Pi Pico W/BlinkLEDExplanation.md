@@ -9,4 +9,4 @@
 
 ##### sleep(0.5) - Create a time pause in MicroPython in number of seconds
 
-##### wiring GPIO Pin 5 + side and GND - side of LED diode
+##### wiring GPIO Pin 5 + side and GND - side 
