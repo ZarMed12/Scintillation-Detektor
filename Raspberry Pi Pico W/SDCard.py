@@ -1,3 +1,5 @@
+from machine import RTC
+
 def log_event(count):
     t = rtc.datetime()
 
