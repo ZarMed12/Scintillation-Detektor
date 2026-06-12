@@ -3,11 +3,6 @@
 
 ## led = Pin(5, Pin.OUT)      - In variable led we put output of function Pin. Number 5 in bracket mean pin number on Rassberry Pi pico board and Pin.OUT mean we send signal on LED diode which is conetct with board over that pin.
 
-## Loop
-   while True:
-     led.toggle()
-     sleep(0.5)
+## led.toggle() - Change value of Pin ( 1 mean on and 2 mean off) which affect LED diode turn on or turn off state
 
-## led.toggle() # Change value of Pin ( 1 mean on and 2 mean off) which affect LED diode turn on or turn off state
-
-## sleep(0.5) # Create a time pause in MicroPython in number of seconds
+## sleep(0.5) - Create a time pause in MicroPython in number of seconds
