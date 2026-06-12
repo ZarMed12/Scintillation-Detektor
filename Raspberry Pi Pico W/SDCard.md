@@ -1,5 +1,6 @@
 ##### from machine import RTC - machine time
-
+##### import time - time library python
+##### import utime - time library micropython
 
 ##### log_event(count) - Function which write on SD card timestamp and value on that time moment
 
