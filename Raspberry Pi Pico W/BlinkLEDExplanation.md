@@ -5,7 +5,7 @@
 
 ##### while TRUE: - Create infinite loop
 
-##### led.toggle() - Change value of Pin ( 1 mean on and 2 mean off) which affect LED diode turn on or turn off state
+##### led.toggle() - Change value of Pin ( 1 mean on and 0 mean off) which affect LED diode turn on or turn off state
 
 ##### sleep(0.5) - Create a time pause in MicroPython in number of seconds
 
