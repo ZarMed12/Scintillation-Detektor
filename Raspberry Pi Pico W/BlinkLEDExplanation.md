@@ -8,3 +8,5 @@
 ##### led.toggle() - Change value of Pin ( 1 mean on and 2 mean off) which affect LED diode turn on or turn off state
 
 ##### sleep(0.5) - Create a time pause in MicroPython in number of seconds
+
+##### wiring GPIO Pin 5 + side and GND - side of LED diode
