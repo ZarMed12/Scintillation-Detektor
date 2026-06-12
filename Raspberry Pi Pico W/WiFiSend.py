@@ -19,4 +19,4 @@ def log_event(count):
             "muons": count
         }).close()
     except:
-        print("Upload failed")
+        print(response.status_code)
