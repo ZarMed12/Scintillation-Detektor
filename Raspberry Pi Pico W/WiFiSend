@@ -1,7 +1,0 @@
-try:
-    urequests.post(SERVER_URL, json={
-        "time": timestamp,
-        "muons": count
-    }).close()
-except:
-    print("Upload failed")
