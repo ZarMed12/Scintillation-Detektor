@@ -1,12 +1,10 @@
 from machine import Pin
 from utime import sleep
 
-led = Pin(25, Pin.OUT)
+led = Pin(5, Pin.OUT)
 
 print("Pico LED blink started")
 
 while True:
-    led.value(1)
-    sleep(0.5)
-    led.value(0)
+    led.toogle()
     sleep(0.5)
