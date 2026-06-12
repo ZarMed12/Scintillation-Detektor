@@ -11,7 +11,7 @@ def log_event(count):
         t[0], t[1], t[2], t[4], t[5], t[6]
     )
 
-    line = "{} | {x -type of detection radiation}: {}\n".format(timestamp, count)
+    line = "{} | {x - type of detected radiation}: {}\n".format(timestamp, count)
    
     try:
         urequests.post(SERVER_URL, json={
