@@ -8,4 +8,8 @@
 
 ##### line = "{} | {x -type of detection radiation}: {}\n".format(timestamp, count) - Format of line which will be write in .txt file, can be .csv or other file format. In first empty bracket is store timestamp value, then text description of type of radiation detection particle and in second bracket 
 
-##### with open("/sd/x_log.txt", "a") as f: f.write(line) - First file x_log.txt with give path is opened in mode append (a). Second line is process of writing data on the end of file.
+##### try except loop is error catcher which give information if data is not send
+
+##### urequests.post(SERVER_URL, json={"time": timestamp, "muons": count}).close()
+    
+##### print(response.status_code) - Give feedback about not sent data
