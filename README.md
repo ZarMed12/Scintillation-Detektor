@@ -1,12 +1,12 @@
 # Scintillator Detector for Muons, X-rays, and Gamma Rays
 
-A modular scintillation-based radiation detector designed to detect and study **cosmic ray muons**, **X-rays**, and **gamma radiation** using layered scintillator materials and photodetectors.
+A modular scintillation-based radiation detector designed to detect and study **cosmic ray muons**, **X-rays**, and **gamma radiation** using scintillator materials and photodetectors.
 
 ---
 
 ## 🔬 Overview
 
-This project describes a multi-purpose radiation detection system using scintillator materials coupled with silicon photomultipliers (SiPMs). The detector is capable of:
+This project describes a radiation detection system using scintillator materials coupled with silicon photomultipliers (SiPMs). The detector is capable of:
 
 - Detecting cosmic **muons** via coincidence measurements
 - Measuring **X-ray radiation** (keV range)
